@@ -1,0 +1,90 @@
+{
+    "name"       : "CVbuilder",
+    "guid"       : "asc.{9a2db794-d933-416d-91be-0b6ee35318b0}",
+    "baseUrl"    : "",
+    "version": "0.1.0",
+    "variations" : [
+        {
+            "description"         : "CVbuilder is a resume generation plugin, aiming to help users swiftly create, update, and share resumes.",
+            "url"                 : "index.html",
+            "icons"               : ["resources/icon.png", "resources/icon@2x.png"],
+            "icons2": [
+				{
+					"style" : "light",
+					
+					"100%": {
+						"normal": "resources/icon.png"
+					},
+					"125%": {
+						"normal": "resources/icon@1.25x.png"
+					},
+					"150%": {
+						"normal": "resources/icon@1.5x.png"
+					},
+					"175%": {
+						"normal": "resources/icon@1.75x.png"
+					},
+					"200%": {
+						"normal": "resources/icon@2x.png"
+					}
+				}
+			],
+            "isViewer"            : false,
+            "EditorsSupport"      : [ "word" ],
+            "isVisual"            : true,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+            "isUpdateOleOnResize" : false,
+
+            "buttons"             : [
+				{
+					"text": "插入模板",
+					"primary": true
+				},
+				{
+					"text": "取消",
+					"primary": false
+				}
+			],
+            "size": [1180, 600],
+            "store": {
+				"background": {
+					"light" : "#dadada",
+					"dark" : "#dadada"
+				},
+				"screenshots" : [
+					"resources/store/screenshots/image.png",
+					"resources/store/screenshots/image_1.png",
+					"resources/store/screenshots/image_2.png"
+				],
+				"icons" : {
+					"light" : "resources/store/icons",
+					"dark"  : "resources/store/icons"
+				},
+				"categories": ["recommended", "work"]
+			}
+        },
+        {
+            "description"         : "About",
+            "url"                 : "index_about.html",
+            "icons"               : ["resources/icon.png", "resources/icon@2x.png"],
+            "isViewer"            : false,
+            "EditorsSupport"      : ["word"],
+            "isVisual"            : true,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",                                                                            
+            "isUpdateOleOnResize" : true,
+
+            "buttons"         : [
+                {
+                    "text": "关闭",
+                    "primary": true
+                }
+            ],
+
+            "size" : [392, 160]
+        }
+    ]
+}
